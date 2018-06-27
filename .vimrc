@@ -37,7 +37,16 @@ set tabstop=4
 set shiftwidth=4
 
 " 突出显示当前行
-set cursorline
+" set cursorline
+
+" 突出显示当前列
+" set cursorcolumn
+
+" 当前行颜色
+" highlight CursorLine   cterm=NONE ctermbg=Magenta ctermfg=NONE guibg=NONE guifg=NONE
+
+" 当前列颜色
+" highlight CursorColumn cterm=NONE ctermbg=gray ctermfg=NONE guibg=NONE guifg=NONE
 
 " 左下角显示当前 vim 模式
 set showmode
