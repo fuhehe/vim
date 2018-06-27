@@ -21,6 +21,7 @@ wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 vim ~/.vimrc
 :PlugInstall
 cd .vim/plugged/YouCompleteMe
+git submodule update --init --recursive
 ./install.py
 
 
