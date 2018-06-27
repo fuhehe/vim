@@ -1,30 +1,45 @@
 # vim
+
 vim config
 
 
 1：安装 vim:
+
 git clone https://github.com/vim/vim.git
+
 cd vim
+
 ./configure --enable-pythoninterp=yes
+
 make & make install
- 
+
+
 2：拷贝 vim 配置文件
+
 git clone https://github.com/fuhehe/vim.git
+
 ln -s ./fuhehe/.vimrc .vimrc
 
 3：安装 vim-plug
-mkdir ~/.vim/autoload/  
+
+mkdir ~/.vim/autoload/
+
 cd ~/.vim/autoload/
+
 wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+
 4：通过 vim-plug 配置插件
+
 vim ~/.vimrc
+
 :PlugInstall
+
 cd .vim/plugged/YouCompleteMe
+
 git submodule update --init --recursive
+
 ./install.py
-
-
 
 
 
