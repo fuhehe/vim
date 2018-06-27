@@ -3,7 +3,7 @@ vim config
 
 
 1：安装 vim:
-get clone https://github.com/vim/vim.git
+git clone https://github.com/vim/vim.git
 cd vim
 ./configure --enable-pythoninterp=yes
 make & make install
