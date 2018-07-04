@@ -1,12 +1,12 @@
 CentOS 6升级 gcc
 
-1.下载 repo 到本地 
+1.下载 repo 到本地  
 wget http://people.centos.org/tru/devtools-2/devtools-2.repo -O /etc/yum.repos.d/devtools-2.repo
 
-2.安装 
+2.安装  
 yum install devtoolset-2-gcc devtoolset-2-binutils devtoolset-2-gcc-c++
 
-3.创建链接 
+3.创建链接  
 ln -s /opt/rh/devtoolset-2/root/usr/bin/* /usr/local/bin/
 
 4.设置优先级
