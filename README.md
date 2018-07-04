@@ -9,7 +9,7 @@ git clone https://github.com/vim/vim.git
 
 cd vim
 
-./configure --enable-pythoninterp=yes
+./configure --with-features=huge --enable-rubyinterp --enable-pythoninterp --enable-python3interp --enable-luainterp --enable-perlinterp --enable-multibyte --enable-cscope
 
 make & make install
 
