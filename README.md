@@ -10,8 +10,8 @@ yum install devtoolset-2-gcc devtoolset-2-binutils devtoolset-2-gcc-c++
 ln -s /opt/rh/devtoolset-2/root/usr/bin/* /usr/local/bin/
 
 4.设置优先级  
-update-alternatives --install /usr/bin/gcc gcc /usr/local/bin/gcc 100
-update-alternatives --install /usr/bin/g++ g++ /usr/local/bin/g++ 100
+update-alternatives --install /usr/bin/gcc gcc /usr/local/bin/gcc 100  
+update-alternatives --install /usr/bin/g++ g++ /usr/local/bin/g++ 100  
 
 5.或者用下面的方法启用  
 echo 'source /opt/rh/devtoolset-2/enable' >> /etc/profile 
