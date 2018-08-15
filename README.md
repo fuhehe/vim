@@ -18,12 +18,6 @@ echo 'source /opt/rh/devtoolset-2/enable' >> /etc/profile
 source /opt/rh/devtoolset-2/enable
 
 
-安装 vim 需要的 lua ruby python perl  
-yum install lua lua-devel  
-yum install ruby ruby-devel  
-yum install perl perl-devel perl-core  
-
-
 升级python  
 
 1：安装devtoolset  
@@ -60,9 +54,11 @@ curl -O https://bootstrap.pypa.io/get-pip.py # 得到一个get-pip.py
 python get-pip.py
 
 
-安装 vim 所需的 perl
 
-yum install perl perl-devel perl-ExtUtils-ParseXS perl-ExtUtils-XSpp perl-ExtUtils-CBuilder perl-ExtUtils-Embed
+安装 vim 需要的 lua ruby python perl  
+yum install lua lua-devel  
+yum install ruby ruby-devel  
+yum install perl perl-devel perl-core perl-ExtUtils-ParseXS perl-ExtUtils-XSpp perl-ExtUtils-CBuilder perl-ExtUtils-Embed
 
 
 升级 vim
