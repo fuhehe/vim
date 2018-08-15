@@ -61,6 +61,7 @@ python get-pip.py
 
 
 安装 vim 所需的 perl
+
 yum install perl perl-devel perl-ExtUtils-ParseXS perl-ExtUtils-XSpp perl-ExtUtils-CBuilder perl-ExtUtils-Embed
 
 
