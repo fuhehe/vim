@@ -57,7 +57,11 @@ vim /usr/bin/yum
 
 7：安装pip  
 curl -O https://bootstrap.pypa.io/get-pip.py # 得到一个get-pip.py  
-python get-pip.py  
+python get-pip.py
+
+
+安装 vim 所需的 perl
+yum install perl perl-devel perl-ExtUtils-ParseXS perl-ExtUtils-XSpp perl-ExtUtils-CBuilder perl-ExtUtils-Embed
 
 
 升级 vim
