@@ -32,7 +32,7 @@ yum install sqlite-devel
 
 3：下载并解压Python 2.7 的源代码  
 cd /opt  
-wget --no-check-certificate https://www.python.org/ftp/python/2.7.9/Python-2.7.15.tar.xz  
+wget --no-check-certificate https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tar.xz  
 tar xf Python-2.7.15.tar.xz  
 cd Python-2.7.15  
 
