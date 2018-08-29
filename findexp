@@ -1,4 +1,4 @@
 #!/bin/bash
 
-find . -iname \*.[ch] -exec grep -wnH --color $1 \{\} \;
-find . -iname \*.cpp -exec grep -wnH --color $1 \{\} \;
+find . -path "./upload" -prune -o -iname \*.[ch] -exec grep -wnH --color $1 \{\} \;
+find . -path "./upload" -prune -o -iname \*.cpp -exec grep -wnH --color $1 \{\} \;
